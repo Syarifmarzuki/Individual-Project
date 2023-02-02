@@ -1,0 +1,60 @@
+body
+{
+    background-color: white;
+}
+
+
+.fa-instagram
+    {
+       color: rgb(9, 9, 10);
+    }
+
+    .navbar{
+        position: fixed;
+        z-index: 5;
+        width: 98.7%;
+        padding: 10px 0;
+        background-color: #1b1b1b;
+    }
+    .navbar .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar .menu-list{
+        display: inline-flex;
+    
+    }
+    .navbar .logo a{
+        color: white;
+        font-size: 40px;
+        font-weight: 600;
+        text-decoration: none;
+        background-color:#1b1b1b;
+    }
+    .menu-list li{
+        list-style: none;
+    }
+    .menu-list li a{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 25px;
+        text-decoration: none;
+    }
+
+   /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-align:center;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
